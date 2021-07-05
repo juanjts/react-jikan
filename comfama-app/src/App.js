@@ -13,10 +13,9 @@ function App() {
     try{
       const animeData = await api.get(tosearch)
       setAnime(animeData.data.results)
-      console.log(animeData.data.results);
       return anime
     }catch(error){
-      console.log(error);
+      throw error;
     }
   }
   return (

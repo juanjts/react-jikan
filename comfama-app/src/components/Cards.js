@@ -15,7 +15,7 @@ function Cards({anime}) {
 
     return (
         <div className="carousel">
-            <dt className="card-title text-center">El promedio de la búsqueda es: {getScore(anime) ? getScore(anime) : 0}</dt>
+            <dt className="card-title text-center">The average score of your search is: {getScore(anime) ? getScore(anime) : 0}</dt>
             <div className="carousel__container">
                 {
                     anime.map(card =>(

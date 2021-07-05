@@ -21,7 +21,7 @@ function Card({title, score, image, url}) {
                 <h6 className="card-title">{title}</h6>
                 <p className="card-text text-secondary">{scoreController(score)}</p>
                 <p className="card-text text-secondary">{score}</p>
-                <a href={url} className="btn btn-outline-secondary" target="_blank">Ir a sitio web</a>
+                <a href={url} className="btn btn-outline-secondary" target="_blank">Go to website</a>
             </div>
         </div>
     )
